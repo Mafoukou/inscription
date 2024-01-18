@@ -1,0 +1,193 @@
+:root {
+    --blue: #02b6fd;
+    --violet: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: 'Century Schoolbook', Cambria Math, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(225, 225, 225, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #000000;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: auto;
+    margin: center;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+    padding-left: 20px;
+    border: 2px solid rgba(225, 225, 225, .2);
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.input-box input::placeholder {
+    color: #ffffff;
+    font-size: 16.5px;
+    font-family: 'Century Schoolbook', Cambria Math, serif;
+    margin-left: 5%;
+}
+
+.input-box .text {
+    margin: auto;
+    padding: 3px;
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remenber-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16.5px;
+    margin: -15px 0 15px;
+}
+
+.remenber-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remenber-forgot a {
+    color: #0004ff;
+    text-decoration: none;
+}
+
+.remenber-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 19px;
+    color: #0c0c0c;
+    margin: 0 15px 0 0;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    border: 2px solid var(--blue);
+    transition: color 0.5s, background-color 0.5s;
+    font-weight: bold;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20 0 15px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+img {
+    font-display: 600;
+}
+
+p {
+    text-align: justify;
+}
+
+header nav .right {
+    display: flex;
+    align-items: center;
+}
+
+header nav .right option {
+    margin: 0 15px 0 0;
+    padding: 5px 15px;
+    font-size: 16px;
+    background-color: inherit;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.5s, background-color 0.5s;
+    font-style: italic;
+    font-weight: bold;
+}
+
+header nav p {
+    margin: 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+Header select {
+    margin: 0 15px 0 0;
+    padding: 5px 15px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.5s, background-color 0.5s;
+    font-style: italic;
+    font-weight: bold;
+}
+
+header nav .right option a:hover {
+    color: white;
+}
+
+header nav .right option:hover {
+    background-color: var(--blue);
+}
+
+header nav .right option a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {}
